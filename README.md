@@ -9,7 +9,7 @@
 ## For the state management : Redux - Toolkit
 
 <br/>
-a live demo : [OgShop](https://eshopappogset.herokuapp.com/)
+Live demo : [OgShop](https://eshopappogset.herokuapp.com/)
 <br/>
 
 ## Available Scripts
