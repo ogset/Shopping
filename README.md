@@ -2,9 +2,12 @@
 
 # E-Commerce App for electronics
 
-## This project was made with with the famous MERN Stack. 
+## This project was made with the famous MERN Stack.
+
 ## MongoDb - Express - React - NodeJs
+
 ## For the state management : Redux - Toolkit
+
 <br/>
 
 ## Available Scripts
@@ -28,7 +31,4 @@ Runs the app in the client mode.
 
 <br/>
 
-
 <br/>
-
-
