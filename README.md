@@ -27,7 +27,7 @@ Server will restart if you make edits.\
 Runs the app in the client mode.
 
 <br/>
-
+<img src="frontend/pics/image1.png" alt="Product"><img src="frontend/pics/image2.png" alt="Cart"><img src="frontend/pics/image3.png" alt="PlaceOrder"><img src="frontend/pics/image4.png" alt="Orders">
 
 <br/>
 
