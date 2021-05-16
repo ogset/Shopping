@@ -6,7 +6,8 @@
 ## MongoDb - Express - React - NodeJs
 ## For the state management : Redux - Toolkit
 <br/>
-
+a live demo : [OgShop](https://eshopappogset.herokuapp.com/)
+<br/>
 ## Available Scripts
 
 In the project directory, you can run:
