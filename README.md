@@ -20,12 +20,11 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm run server`
 
 Runs the server with nodemon.
-Server will restart if you make edits.\
+Server will restart if you make edits.
 
 ### `npm run client`
 
