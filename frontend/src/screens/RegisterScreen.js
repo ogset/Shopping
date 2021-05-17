@@ -4,6 +4,7 @@ import { Form, Button, Row, Col, Container, Alert } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import Loader from '../components/Loader'
 import { admission, clearError } from '../slices/userSlice'
+import { updateUserCart } from '../slices/cartSlice'
 
 const RegisterScreen = ({ history }) => {
   const [name, setName] = useState('')
@@ -15,17 +16,19 @@ const RegisterScreen = ({ history }) => {
 
   const dispatch = useDispatch()
   const { error, loading, userData } = useSelector((state) => state.userList)
+  const { cart } = useSelector((state) => state.cartList)
 
   useEffect(() => {
     if (userData.token) {
+      dispatch(updateUserCart(cart))
       history.push('/')
     } else {
       dispatch(clearError())
     }
-  }, [dispatch, history, userData.token])
+  }, [dispatch, history, userData.token, cart])
 
   const submitHandler = (e) => {
-    e.prevent.default()
+    e.preventDefault()
     dispatch(admission({ name, email, password }))
   }
 

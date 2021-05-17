@@ -26,7 +26,6 @@ const LoginScreen = ({ history }) => {
     e.preventDefault()
     dispatch(admission({ email, password }))
   }
-
   return (
     <Container>
       <Row className="justify-content-md-center">
